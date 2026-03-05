@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "xXpfPYcNXck=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tobia\\.nuget\\packages\\mediatr\\14.0.0\\mediatr.14.0.0.nupkg.sha512",
+    "C:\\Users\\tobia\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\tobia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.3\\microsoft.extensions.dependencyinjection.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\tobia\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\tobia\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.14.0\\microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "C:\\Users\\tobia\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.14.0\\microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\tobia\\.nuget\\packages\\microsoft.identitymodel.logging\\8.14.0\\microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
+    "C:\\Users\\tobia\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.14.0\\microsoft.identitymodel.tokens.8.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}
