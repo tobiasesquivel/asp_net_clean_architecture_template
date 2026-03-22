@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Domain\\Domain.csproj": {}
+    "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Domain\\Domain.csproj": {
+    "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\tobia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tobia\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Cortex.Mediator": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

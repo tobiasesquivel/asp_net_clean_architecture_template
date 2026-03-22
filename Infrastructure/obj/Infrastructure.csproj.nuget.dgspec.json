@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Application\\Application.csproj": {
+    "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\tobia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Application\\obj\\",
+        "outputPath": "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tobia\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Domain\\Domain.csproj"
+              "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Domain\\Domain.csproj"
               }
             }
           }
@@ -48,9 +48,17 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "dependencies": {
-            "MediatR": {
+            "Cortex.Mediator": {
               "target": "Package",
-              "version": "[14.0.0, )"
+              "version": "[3.1.2, )"
+            },
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.13, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
@@ -351,14 +359,14 @@
         }
       }
     },
-    "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Domain\\Domain.csproj": {
+    "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\tobia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tobia\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -390,6 +398,12 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Cortex.Mediator": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -684,14 +698,14 @@
         }
       }
     },
-    "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\tobia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tobia\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -706,8 +720,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\tobia\\home\\dev\\github\\asp_net_clean_architecture_template\\Application\\Application.csproj"
+              "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\tobia\\home\\dev\\github\\marsgram\\backend\\Application\\Application.csproj"
               }
             }
           }
@@ -743,6 +757,18 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[10.0.3, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[8.16.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.16.0, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",

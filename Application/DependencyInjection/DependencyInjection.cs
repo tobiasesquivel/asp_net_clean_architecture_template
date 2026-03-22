@@ -1,3 +1,4 @@
+using Cortex.Mediator.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Application.DependencyInjection;
@@ -6,15 +7,16 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddApplication(this IServiceCollection services)
     {
-        services.AddAppMediatr();
+        services.AddAppMediator();
         return services;
     }
 
-    private static IServiceCollection AddAppMediatr(this IServiceCollection services)
+    private static IServiceCollection AddAppMediator(this IServiceCollection services)
     {
-        services.AddMediatR(config =>
+        services.AddCortexMediator([typeof(DependencyInjection)],
+        opts =>
         {
-            config.RegisterServicesFromAssembly(typeof(DependencyInjection).Assembly);
+            opts.AddDefaultBehaviors();
         });
         return services;
     }
