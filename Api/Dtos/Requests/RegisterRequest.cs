@@ -1,3 +1,3 @@
-namespace Api.Dtos.Requests;
+namespace api.Dtos.Requests;
 
-public record RegisterRequest(string Username, string Email, string DisplayName, string Password);
+public record RegisterRequest(string Username, string Email, string Displayname, string Password);
